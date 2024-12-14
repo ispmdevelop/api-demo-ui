@@ -6,16 +6,32 @@ export const Header: FC<unknown> = () => {
 
   return (
     <Box
-      sx={{
-        // border: '1px solid',
-        // borderColor: theme.palette.primary.main,
-        // borderRadius: '0.5rem',
-        p: '1rem',
-      }}
+      sx={
+        {
+          // border: '1px solid',
+          // borderColor: theme.palette.primary.main,
+          // borderRadius: '0.5rem',
+        }
+      }
     >
-      <Typography variant='h3' color={theme.palette.primary.main}>
-        CNAPP Multi-Cloud Security Policy Dashboard
-      </Typography>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: 1,
+        }}
+      >
+        {/* <img
+          src={imgSrc.default}
+          alt='CNAPP Logo'
+          width={'100px'}
+          height={'100px'}
+        /> */}
+        <Typography variant='h4' color={theme.palette.primary.main}>
+          CNAPP Policy Compliance Synchronization & Migration Dashboard
+        </Typography>
+      </Box>
     </Box>
   );
 };
