@@ -34,7 +34,7 @@ export const CreateCustomPolicy: FC<unknown> = () => {
       >
         <AddCircleOutlineIcon color='success' />
         <Typography color='success' variant='h5'>
-          Create Custom Policy PANEL
+          CREATE CUSTOM POLICY PANEL
         </Typography>
       </Box>
       <Divider></Divider>
